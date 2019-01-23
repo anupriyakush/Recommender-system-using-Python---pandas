@@ -5,7 +5,7 @@ I have used 100k dataset from movielens in this project. I have extensively used
 This project aims to predict the top five movies users will like based on their preference. I have used item based collaborative filtering because finding the relationship between items is better than finding relationship between people. I have established relationship between movies and based on the correlation, this code will suggest top five movies to consider watching.
 
 Steps:
-1. Read .data and .tem files from the dataset and merged to get an uniform dataframe. 
+1. Read .data and .item files from the dataset and merged to get an uniform dataframe. 
 2. Created a pivot table to make all the movies as columns. This way we can see the ratings each user has given to the movies they've watched. 
 3. Passed movie name as argument to extract the details for that particular movie and stored in a series. 
 4. Created a datafram for similar movies by findig correlation between all the columns and the argument. '
